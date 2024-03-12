@@ -1,7 +1,7 @@
 function loco(){
     gsap.registerPlugin(ScrollTrigger);
 
-// Using Locomotive Scroll from Locomotive https://github.com/locomotivemtl/locomotive-scroll
+// Using Locomotive Scroll : https://github.com/locomotivemtl/locomotive-scroll
 
 const locoScroll = new LocomotiveScroll({
   el: document.querySelector("#main"),
@@ -83,8 +83,6 @@ var tl = gsap.timeline({
 tl.to("#page1>h1",{
     top:`-50%`
 })
-
-
 
 
 
